@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.LoginActivity"
+    android:background="@color/purplebg">
+    <TextView
+        android:id="@+id/Heading1"
+        android:layout_width="396dp"
+        android:layout_height="114dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="WOOFR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="304dp"
+        android:layout_height="287dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306"
+        app:srcCompat="@drawable/loading_dog" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="-4dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="7dp"
+
+        android:id="@+id/numberLaunch"
+        app:layout_constraintTop_toBottomOf="@+id/logo2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/number"
+                    android:text="Enter number"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/userNumber"
+                    android:hint="Enter your number"
+                    android:inputType="number"
+                    android:drawablePadding="12dp"
+                    android:drawableLeft="@drawable/phone"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/sendotp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:text="SEND OTP"
+                android:textColor="@color/purplebg"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/activity_custombutton2"
+
+                android:layout_height="40dp"
+                />
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="-4dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="7dp"
+        android:visibility="gone"
+
+        android:id="@+id/OtpLayout"
+
+        app:layout_constraintTop_toBottomOf="@+id/logo2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/number1"
+                android:text="Enter OTP"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/userOTP"
+                    android:hint="OTP"
+                    android:inputType="number"
+                    android:drawablePadding="12dp"
+                    android:drawableLeft="@drawable/phone"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/verifyotp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:text="VERIFY OTP"
+                android:textColor="@color/purplebg"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/activity_custombutton2"
+
+                android:layout_height="40dp"
+                />
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476631392279",
+    "project_id": "kutta-20085",
+    "storage_bucket": "kutta-20085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476631392279:android:d634cfbe162b491b18fc52",
+        "android_client_info": {
+          "package_name": "com.example.kutta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476631392279-cacplbjp6pqcnofptb4dbg81oo5gjatv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh6pZZ3odE7NgaEvwpHZ3CLew7zBrz9hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476631392279-cacplbjp6pqcnofptb4dbg81oo5gjatv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
