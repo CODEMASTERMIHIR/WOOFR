@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +18,7 @@
 		<li>Connect your Android device to your computer via USB or use an Android emulator.</li>
 		<li>Click on the "Run" button to launch the app on your device or emulator.</li>
 	</ol>
+	<img src="woofr.png" alt="WOOFR logo" width="300px">
 	<h2>Credits:</h2>
 	<p>This project was developed by Mihir Patel, Harsh More and Neel Keshariya.</p>
 	<p>Follow us on our social media handles:</p>
