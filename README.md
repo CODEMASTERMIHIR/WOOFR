@@ -23,8 +23,8 @@
 	<h2>Credits:</h2>
 	<p>This project was developed by Mihir Patel, Harsh More and Neel Keshariya.</p>
 	<p>Follow us on our social media handles:</p>
-	<a href="https://www.youtube.com/channel/UC3SszWzWNg6gT-Rjy5x0BWw"><button style="background-color: red; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Subscribe to our YouTube Channel</button></a>
-	<a href="https://www.instagram.com/dr_vigilant/"><button style="background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Follow us on Instagram</button></a>
+	<a href="https://www.youtube.com/channel/UC3SszWzWNg6gT-Rjy5x0BWw"><button style="background-color: red; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;"><i class="fab fa-youtube"></i> Subscribe to our YouTube Channel</button></a>
+	<a href="https://www.instagram.com/dr_vigilant/"><button style="background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;"><i class="fab fa-instagram"></i> Follow us on Instagram</button></a>
 </body>
 </html>
 
