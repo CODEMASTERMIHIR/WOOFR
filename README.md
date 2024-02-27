@@ -1,2 +1,0 @@
-# WOOFr
- Firebase provides secure authentication, real-time database, cloud messaging, hosting, and analytics services to enhance the functionality and user experience of WOOFR dating app. Users can sign in securely, chat in real-time, receive push notifications, and access the app quickly. Firebase helps to bring together people and their pets, creating a community centered around a shared love for dogs.
